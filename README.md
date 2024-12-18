@@ -12,6 +12,7 @@ just use `./alu <path/to/file>`
 > 1. 4 char identifier
 > 2. 3 char input 1
 > 3. 3 char input 2
+>    
 > there are spaces in between each section as well
 
 #### move *dst* *src*
