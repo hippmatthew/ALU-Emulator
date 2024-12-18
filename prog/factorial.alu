@@ -1,0 +1,29 @@
+move $r4 5
+goto 10
+move $r4 $r3
+move $r5 0
+move $r3 0
+goto 10
+move $r4 $r3
+move $r5 0
+move $r3 0
+move $r1 $r4
+move $r2 $r3
+proc
+move $r3 $r0
+move $r1 $r5
+move $r2 1
+proc
+move $r5 $r0
+move $r0 $r4
+bieq 5   22
+bieq 20  25
+bieq 60  28
+move $r0 $r5
+bneq 4   10
+goto 3
+move $r0 $r5
+bneq 3   10
+goto 7
+move $r0 $r5
+bneq 2   10

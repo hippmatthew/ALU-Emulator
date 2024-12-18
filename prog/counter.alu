@@ -1,0 +1,4 @@
+move $r2 1
+proc
+move $r1 $r0
+goto 2

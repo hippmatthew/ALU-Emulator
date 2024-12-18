@@ -1,0 +1,22 @@
+move $r1 5
+wait
+move $r2 6
+wait
+proc
+wait
+shft $r1 -1
+wait
+shft $r2 2
+wait
+move $r0 $r2
+wait
+bieq 1   9
+move $r1 0
+wait
+move $r2 1
+wait
+proc
+wait
+move $r1 $r0
+wait
+bneq 3   19
